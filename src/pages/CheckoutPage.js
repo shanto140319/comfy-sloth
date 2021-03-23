@@ -6,7 +6,18 @@ import { useCartContext } from '../context/cart_context'
 import { Link } from 'react-router-dom'
 
 const CheckoutPage = () => {
-  return <h4>checkout page</h4>
+  return <Wrapper>
+    <PageHero title="checkout"></PageHero>
+    <div className="page">
+      <h2>Checkout functionality will be coming here</h2>
+    </div>
+  </Wrapper>
 }
-const Wrapper = styled.div``
+const Wrapper = styled.div`
+div{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+`
 export default CheckoutPage
